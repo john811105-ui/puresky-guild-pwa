@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    
+    <!-- PWA 基本設定 -->
+    <title>PureSki 冒險者公會</title>
+    <meta name="description" content="PURE SKI 內部積分系統" />
+    <meta name="theme-color" content="#FFD700" />
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- iOS PWA 設定 -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="冒險者公會" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    
+    <!-- iOS 啟動畫面 -->
+    <link rel="apple-touch-startup-image" href="/splash.png" />
+    
+    <!-- 圖示 -->
+    <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/icon-512.png" />
+    
+    <!-- 防止電話號碼自動偵測 -->
+    <meta name="format-detection" content="telephone=no" />
+    
+    <!-- 安全性 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
