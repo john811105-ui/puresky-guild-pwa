@@ -1,0 +1,24 @@
+{
+  "name": "PureSki 冒險者公會",
+  "short_name": "冒險者公會",
+  "description": "PURE SKI 內部積分系統",
+  "start_url": "/puresky-guild-pwa/",
+  "display": "standalone",
+  "background_color": "#0D1117",
+  "theme_color": "#FFD700",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/puresky-guild-pwa/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/puresky-guild-pwa/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
